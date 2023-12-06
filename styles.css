@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txt1 {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 13px 6px -4px rgba(0, 0, 0, 0.56);
+}
+.inicio {
+  background-color: #595fa6;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#s1 {
+  visibility: hidden;
+}
+
+#final {
+  visibility: hidden;
+  position: relative;
+  top: -400px;
+}
+#final #correctas {
+  color: green;
+}
+#final #incorrectas {
+  color: red;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgb {
+  display: flex;
+  justify-content: center;
+}
+
+.opc {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+  margin: 10px;
+}
+
+.btnopc {
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

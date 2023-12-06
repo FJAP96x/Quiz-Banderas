@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Adivina la bandera</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="txt1">Adivina la bandera</h1>
+      <h3 class="txt2" id="t1">A que Pais pertenece la bandera</h3>
+      <button class="inicio" id="btn">comenzar a jugar</button>
+    </header>
+    <section class="section" id="s1">
+      <figure class="imgb">
+        <img
+          src="Banderas-img/Argentina.jpg"
+          alt="banderas"
+          id="img-ban"
+          width="400px"
+          height="250"
+        />
+      </figure>
+      <div class="opc">
+        <button class="btnopc" id="btn1">argentina</button>
+        <button class="btnopc" id="btn2">uruguay</button>
+        <button class="btnopc" id="btn3">nicaragua</button>
+      </div>
+      <div id="final">
+        <h2>CORRECTAS: <span id="correctas" class="correctas"></span></h2>
+        <h2>INCORRECTAS: <span id="incorrectas" class="incorrectas"></span></h2>
+        <button id="btnr" class="btnopc">volver a jugar</button>
+      </div>
+    </section>
+    <script src="banderas.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
